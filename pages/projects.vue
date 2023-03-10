@@ -1,0 +1,4 @@
+<template>
+    <NavBar />
+    <Projects />
+</template>
