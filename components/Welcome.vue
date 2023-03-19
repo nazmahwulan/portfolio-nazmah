@@ -1,6 +1,6 @@
 <template>
   <div class="sm:flex justify-between items-center p-8 sm:px-20">
-    <div class="text-center pt-8 pb-16 sm:pt-16 sm:pb-0" data-aos="fade-up" data-aos-duration="2000">
+    <div class=" md:text-center text-center pt-8 pb-16 sm:pt-16 sm:pb-0" data-aos="fade-up" data-aos-duration="2000">
       <h1 class="font-bold text-xl sm:text-4xl">
         Hello, I'am <br />
         Nazmah Wulan Rhomadhona <br />
@@ -8,8 +8,8 @@
       </h1>
     </div>
     <div data-speed="-2" data-aos="fade-down" data-aos-duration="2000">
-      <div class="mx-auto shadow-2xl bg-[#BBD6B8] rounded-[10px] sm:w-[450px] sm:h-[450px]">
-        <img class=" mx-auto sm:mx-auto w-[250px] sm:w-[350px] sm:h-[500px]" src="../assets/akuu.png" alt="" />
+      <div class=" mx-auto shadow-2xl bg-[#BBD6B8] rounded-[10px] sm:w-[450px] sm:h-[450px]">
+        <img class="mx-auto sm:mx-auto w-[250px] sm:w-[350px] sm:h-[500px]" src="../assets/akuu.png" alt="" />
       </div>
     </div>
   </div>

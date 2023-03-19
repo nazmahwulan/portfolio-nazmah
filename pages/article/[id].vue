@@ -1,20 +1,17 @@
 <template>
     <div>
-        <p>{{ article.title }}</p>
-        <p>{{ article.price }}</p>
-        <p>{{ article.id }}</p>
-        <p>{{ article.image }}</p>
-        <p>{{ article. description }}</p>
-        <p>{{ article. category }}</p>
+        <NavBar />
+        <ArticleDetail :article="article" />
+        <Footer />
     </div>
 </template>
 
 <script setup>
-const { id } = useRoute().params
-const uri = 'https://fakestoreapi.com/products/' + id
+const { id } = useRoute().params;
+const url = 'https://dummyjson.com/posts/' + id
 
 // fetch the product
-const { data: article } = await useFetch(uri, {key:id})
+const { data: article } = await useFetch(url, { key: id })
 
 definePageMeta({
     layout: 'article'
