@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="sm:flex justify-between items-center p-8 sm:px-20">
     <div class=" md:text-center text-center pt-8 pb-16 sm:pt-16 sm:pb-0" data-aos="fade-up" data-aos-duration="2000">
       <h1 class="font-bold text-xl sm:text-4xl">
@@ -100,4 +100,4 @@
       </div>
     </div>
   </div>
-</template>
+</template> -->

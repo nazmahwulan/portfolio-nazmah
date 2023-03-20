@@ -8,13 +8,13 @@
             <hr class="border-[#BBD6B8] border-2 w-[200px]">
         </div>
     </div>
-    <div class="grid grid-cols-2 gap-5 py-10 px-10">
+    <div class="sm:grid grid-cols-2 gap-5 py-10 px-10">
         <div v-for="(article, index) in article.posts" key: index class="px-10 py-10">
-            <img :src="`https://source.unsplash.com/random/?${article.tags[1]}`" class="sm:w-[800px] sm:h-[300px] sm:mt-[-30px] object-cover"
-                alt="photos" />
+            <img :src="`https://source.unsplash.com/random/?${article.tags[1]}`" class="w-[800px] h-[300px] md:w-[800px] md:h-[300px] sm:mt-[-30px] "
+                alt="photos" data-aos="flip-left" />
             <div class="text-base text-purple-500 sm:mt-[10px]">Olivia Rhye • 20 Mar 2023</div>
-            <NuxtLink :to="`/article/${index}`" class="text-center text-xl font-bold  sm:mt-[10px]">{{ article.title }}</NuxtLink>
-            <div class="text-justify text-base sm:mt-[10px]">{{ article.body }}</div>
+            <NuxtLink :to="`/article/${article.id}`" class="text-center text-xl font-bold  sm:mt-[10px]">{{ article.title }}</NuxtLink>
+            <div class="text-justify text-base sm:mt-[10px] truncate">{{ article.body }}</div>
         </div>
     </div>
     <Footer />
