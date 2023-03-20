@@ -1,4 +1,5 @@
 <template>
+  <div>
   <NavBar />
   <div class="lg:flex lg:px-20 justify-between items-center p-8 sm:px-20">
     <div class=" md:text-center text-center pt-8 pb-16 sm:pt-16 sm:pb-0" data-aos="fade-up" data-aos-duration="2000">
@@ -102,4 +103,5 @@
     </div>
   </div>
   <Footer />
+</div>
 </template>

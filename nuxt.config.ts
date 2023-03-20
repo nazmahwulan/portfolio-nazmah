@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     // configuration options for GITS UI go here
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       link: [
         // <link rel="stylesheet" href="https://myawesome-lib.css">

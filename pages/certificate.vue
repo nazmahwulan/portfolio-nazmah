@@ -1,4 +1,5 @@
 <template>
+  <div>
     <NavBar />
     <div class="sm:mt-[-100px] mt-[80px] mb-[50px] sm:mb-[-40px] ">
     <h1 class="text-black font-bold text-4xl text-center sm:pb-[12px] sm:text-center sm:mt-[150px]">
@@ -26,4 +27,5 @@
     </div>
   </div>
     <Footer />
+</div>
 </template>
