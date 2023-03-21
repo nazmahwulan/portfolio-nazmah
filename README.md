@@ -1,4 +1,4 @@
-# my-gits-endeavour-app
+# portfolio-nazmah-app
 
 This is a minimal app created by running `npx create-gits-app`. This project uses the following technologies for a great developer and user-experience:
 
