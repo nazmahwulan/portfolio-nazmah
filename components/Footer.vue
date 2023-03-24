@@ -1,7 +1,7 @@
 <template>
     <div>
         <footer>
-            <div class="bg-[#BBD6B8] sm:[30px]">
+            <div class="bg-[#BBD6B8] sm:mt-[30px]">
                 <div
                     class="sm:gap-2 sm:text-2xl sm:flex sm:pt-[20px] sm:pb-[10px] gap-2 text-2xl flex justify-center pt-[20px] pb-[10px]">
                     <NuxtLink href="https://www.instagram.com/nazmahwr/?hl=id" target="blank"
